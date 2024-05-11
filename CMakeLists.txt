@@ -1,0 +1,137 @@
+cmake_minimum_required(VERSION 3.26)
+project(fm3_ucos_EVB_1v1_ad_lcd_uart2_key_ C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(common)
+include_directories(example/IAR)
+include_directories(example/IAR/board)
+include_directories(example/IAR/picture)
+include_directories(example/source/board)
+include_directories(example/source/driver/adc)
+include_directories(example/source/driver/bt)
+include_directories(example/source/driver/clock)
+include_directories(example/source/driver/cr)
+include_directories(example/source/driver/crc)
+include_directories(example/source/driver/cs)
+include_directories(example/source/driver/dmac)
+include_directories(example/source/driver/dt)
+include_directories(example/source/driver/extint)
+include_directories(example/source/driver/io)
+include_directories(example/source/driver/lpcm)
+include_directories(example/source/driver/lvd)
+include_directories(example/source/driver/mfs)
+include_directories(example/source/driver/mfs/csio)
+include_directories(example/source/driver/mfs/i2c)
+include_directories(example/source/driver/mfs/lin)
+include_directories(example/source/driver/mfs/uart)
+include_directories(example/source/driver/mft)
+include_directories(example/source/driver/qprc)
+include_directories(example/source/driver/wc)
+include_directories(example/source/driver/wd)
+include_directories(example/source/main)
+include_directories(example/source/modules)
+include_directories(uCOS_II_V286/CPU/ARM)
+include_directories(uCOS_II_V286/CPU/IAR)
+include_directories(uCOS_II_V286/Source)
+
+add_executable(fm3_ucos_EVB_1v1_ad_lcd_uart2_key_
+        common/core_cm3.c
+        common/core_cm3.h
+        common/core_cmFunc.h
+        common/core_cmInstr.h
+        common/debug.h
+        common/fm3_common.h
+        common/mb9bf506r.h
+        common/system_mb9bf50x.c
+        common/system_mb9bf50x.h
+        example/ARM/Blinky.c
+        example/ARM/IRQ.c
+        example/ARM/Retarget.c
+        example/ARM/Serial.c
+        example/IAR/board/arm_comm.h
+        example/IAR/board/board.h
+        example/IAR/picture/fujitsu_welcome.h
+        example/source/board/board.h
+        example/source/driver/adc/adc12_FM3.c
+        example/source/driver/adc/adc12_FM3.h
+        example/source/driver/bt/bt_fm3.c
+        example/source/driver/bt/bt_fm3.h
+        example/source/driver/clock/clock_fm3.c
+        example/source/driver/clock/clock_fm3.h
+        example/source/driver/cr/cr_fm3.c
+        example/source/driver/cr/cr_fm3.h
+        example/source/driver/crc/crc_fm3.c
+        example/source/driver/crc/crc_fm3.h
+        example/source/driver/cs/csv_fm3.c
+        example/source/driver/cs/csv_fm3.h
+        example/source/driver/dmac/dmac_fm3.c
+        example/source/driver/dmac/dmac_fm3.h
+        example/source/driver/dt/dt_fm3.c
+        example/source/driver/dt/dt_fm3.h
+        example/source/driver/extint/extint_fm3.c
+        example/source/driver/extint/extint_fm3.h
+        example/source/driver/io/io_fm3.c
+        example/source/driver/io/io_fm3.h
+        example/source/driver/lpcm/lpcm_fm3.c
+        example/source/driver/lpcm/lpcm_fm3.h
+        example/source/driver/lvd/lvd_fm3.c
+        example/source/driver/lvd/lvd_fm3.h
+        example/source/driver/mfs/csio/csio_fm3.c
+        example/source/driver/mfs/csio/csio_fm3.h
+        example/source/driver/mfs/i2c/I2C_fm3.c
+        example/source/driver/mfs/i2c/I2C_fm3.h
+        example/source/driver/mfs/lin/lin_fm3.c
+        example/source/driver/mfs/lin/lin_fm3.h
+        example/source/driver/mfs/uart/uart_fm3.c
+        example/source/driver/mfs/uart/uart_fm3.h
+        example/source/driver/mfs/mfs_fm3.c
+        example/source/driver/mfs/mfs_fm3.h
+        example/source/driver/mft/mft_adcmp_fm3.c
+        example/source/driver/mft/mft_adcmp_fm3.h
+        example/source/driver/mft/mft_frt_fm3.c
+        example/source/driver/mft/mft_frt_fm3.h
+        example/source/driver/mft/mft_icu_fm3.c
+        example/source/driver/mft/mft_icu_fm3.h
+        example/source/driver/mft/mft_ocu_fm3.c
+        example/source/driver/mft/mft_ocu_fm3.h
+        example/source/driver/mft/mft_wfg_fm3.c
+        example/source/driver/mft/mft_wfg_fm3.h
+        example/source/driver/qprc/qprc_fm3.c
+        example/source/driver/qprc/qprc_fm3.h
+        example/source/driver/wc/wc_fm3.c
+        example/source/driver/wc/wc_fm3.h
+        example/source/driver/wd/wd_fm3.c
+        example/source/driver/wd/wd_fm3.h
+        example/source/main/debug.h
+        example/source/main/main.c
+        example/source/main/mb9bf50x_lib.h
+        example/source/main/uart.c
+        example/source/main/uart.h
+        example/source/modules/adc.c
+        example/source/modules/adc.h
+        example/source/modules/font.h
+        example/source/modules/key.c
+        example/source/modules/key.h
+        example/source/modules/lcd.c
+        example/source/modules/lcd.h
+        uCOS_II_V286/CPU/ARM/os_cpu.h
+        uCOS_II_V286/CPU/ARM/os_cpu_c.c
+        uCOS_II_V286/CPU/IAR/os_cpu.h
+        uCOS_II_V286/CPU/IAR/os_cpu_c.c
+        uCOS_II_V286/Source/app_cfg.h
+        uCOS_II_V286/Source/os_cfg.h
+        uCOS_II_V286/Source/os_core.c
+        uCOS_II_V286/Source/os_dbg.c
+        uCOS_II_V286/Source/os_flag.c
+        uCOS_II_V286/Source/os_mbox.c
+        uCOS_II_V286/Source/os_mem.c
+        uCOS_II_V286/Source/os_mutex.c
+        uCOS_II_V286/Source/os_q.c
+        uCOS_II_V286/Source/os_sem.c
+        uCOS_II_V286/Source/os_task.c
+        uCOS_II_V286/Source/os_time.c
+        uCOS_II_V286/Source/os_tmr.c
+        uCOS_II_V286/Source/ucos_ii.c
+        uCOS_II_V286/Source/ucos_ii.h
+)

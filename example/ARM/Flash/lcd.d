@@ -1,0 +1,10 @@
+.\flash\lcd.o: ..\source\modules\lcd.c
+.\flash\lcd.o: ..\source\modules\lcd.h
+.\flash\lcd.o: ..\source\board\board.h
+.\flash\lcd.o: ..\..\common\mb9bf506r.h
+.\flash\lcd.o: ..\..\common\core_cm3.h
+.\flash\lcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\lcd.o: ..\..\common\core_cmInstr.h
+.\flash\lcd.o: ..\..\common\core_cmFunc.h
+.\flash\lcd.o: ..\..\common\system_mb9bf50x.h
+.\flash\lcd.o: ..\source\modules\font.h

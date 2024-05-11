@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/example/source/modules/key.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/example/source/modules/key.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/uCOS_II_V286/Source/os_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/uCOS_II_V286/Source/os_time.c" charset="GBK" />
+  </component>
+</project>

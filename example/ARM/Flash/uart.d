@@ -1,0 +1,16 @@
+.\flash\uart.o: ..\source\main\uart.c
+.\flash\uart.o: ..\source\main\uart.h
+.\flash\uart.o: ..\source\main\mb9bf50x_lib.h
+.\flash\uart.o: ..\..\common\fm3_common.h
+.\flash\uart.o: ..\..\common\system_mb9bf50x.h
+.\flash\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\uart.o: ..\..\common\debug.h
+.\flash\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\uart.o: ..\..\common\mb9bf506r.h
+.\flash\uart.o: ..\..\common\core_cm3.h
+.\flash\uart.o: ..\..\common\core_cmInstr.h
+.\flash\uart.o: ..\..\common\core_cmFunc.h
+.\flash\uart.o: ..\source\main\..\driver\io\io_fm3.h
+.\flash\uart.o: ..\source\main\..\driver\mfs\mfs_fm3.h
+.\flash\uart.o: ..\source\main\..\driver\mfs\uart\uart_fm3.h
+.\flash\uart.o: ..\source\main\..\driver\mfs\csio\csio_fm3.h

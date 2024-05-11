@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fm3_ucos_EVB_1v1_ad_lcd_uart2_key_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fm3_ucos_EVB_1v1_ad_lcd_uart2_key_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fm3_ucos_EVB_1v1_ad_lcd_uart2_key_-Debug-9c8c5177f42a5028117b.json",
+					"name" : "fm3_ucos_EVB_1v1_ad_lcd_uart2_key_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/14838/IARProject/fm3_ucos_EVB_1v1(ad_lcd_uart2_key)/cmake-build-debug",
+		"source" : "C:/Users/14838/IARProject/fm3_ucos_EVB_1v1(ad_lcd_uart2_key)"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

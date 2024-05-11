@@ -1,0 +1,15 @@
+.\flash\key.o: ..\source\modules\key.c
+.\flash\key.o: ..\source\modules\key.h
+.\flash\key.o: ..\source\board\board.h
+.\flash\key.o: ..\..\common\mb9bf506r.h
+.\flash\key.o: ..\..\common\core_cm3.h
+.\flash\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\key.o: ..\..\common\core_cmInstr.h
+.\flash\key.o: ..\..\common\core_cmFunc.h
+.\flash\key.o: ..\..\common\system_mb9bf50x.h
+.\flash\key.o: ..\..\uCOS_II_V286\CPU\ARM\os_cpu.h
+.\flash\key.o: ..\source\modules\lcd.h
+.\flash\key.o: ..\source\board\board.h
+.\flash\key.o: ..\..\uCOS_II_V286\Source\ucos_ii.h
+.\flash\key.o: ..\..\uCOS_II_V286\Source\app_cfg.h
+.\flash\key.o: ..\..\uCOS_II_V286\Source\os_cfg.h

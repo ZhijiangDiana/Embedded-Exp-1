@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Á÷Ó© Firefly, 114514, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.30.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.3.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+C:\Users\14838\IARProject\fm3_ucos_EVB_1v1(ad_lcd_uart2_key)\example\ARM\main.uvproj
+Project File Date:  05/10/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MB9BF50x Flash'
+assembling startup_MB9BF50x.s...
+compiling os_task.c...
+compiling os_tmr.c...
+compiling os_dbg.c...
+compiling os_mbox.c...
+compiling Retarget.c...
+compiling os_mem.c...
+compiling os_sem.c...
+compiling os_flag.c...
+compiling os_time.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_core.c...
+assembling os_cpu_a.s...
+compiling os_cpu_c.c...
+compiling main.c...
+..\source\main\main.c(373): warning:  #177-D: variable "i"  was declared but never referenced
+  INT8U i=0;
+..\source\main\main.c(437): warning:  #550-D: variable "len"  was set but never used
+  	int32_t len,i=0;
+..\source\main\main.c(438): warning:  #177-D: variable "enter"  was declared but never referenced
+          char enter[]="\n";
+..\source\main\main.c(545): warning:  #550-D: variable "size"  was set but never used
+      int32_t size;
+..\source\main\main.c(547): warning:  #550-D: variable "AD_Data_ASCII"  was set but never used
+  	 char AD_Data_ASCII[3],temp;
+..\source\main\main.c: 5 warnings, 0 errors
+compiling Serial.c...
+compiling system_mb9bf50x.c...
+compiling adc.c...
+..\source\modules\adc.c(94): warning:  #1-D: last line of file ends without a newline
+  } 
+..\source\modules\adc.c: 1 warning, 0 errors
+compiling lcd.c...
+..\source\modules\font.h(1023): warning:  #1-D: last line of file ends without a newline
+  #endif /* __FONT_H */
+..\source\modules\lcd.c(184): warning:  #550-D: variable "dummy"  was set but never used
+    unsigned char i=0x8,dummy;
+..\source\modules\lcd.c(198): warning:  #550-D: variable "dummy"  was set but never used
+    unsigned short i=0xff,dummy;
+..\source\modules\lcd.c(212): warning:  #550-D: variable "dummy"  was set but never used
+    unsigned long i=0x4ffff,dummy;
+..\source\modules\lcd.c: 4 warnings, 0 errors
+compiling key.c...
+linking...
+Program Size: Code=16406 RO-data=1566 RW-data=272 ZI-data=9696  
+".\Flash\Blinky.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

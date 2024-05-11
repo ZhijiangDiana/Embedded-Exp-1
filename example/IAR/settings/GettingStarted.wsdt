@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>GettingStarted/Flash Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>332</Column0><Column1>16</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1216</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1622</ColumnWidth1></Debug-Log>
+    <TerminalIO/><Find-in-Files><ColumnWidth0>580</ColumnWidth0><ColumnWidth1>82</ColumnWidth1><ColumnWidth2>994</ColumnWidth2></Find-in-Files><Disassembly><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24242-6034</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>GettingStarted</ExpandedNode><ExpandedNode>GettingStarted/common</ExpandedNode><ExpandedNode>GettingStarted/user</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25057-6223</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-10649-6288</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-32587-19387</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\board\arm_comm.h</Filename><XPos>0</XPos><YPos>28</YPos><SelStart>1102</SelStart><SelEnd>1102</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\readme.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>636</SelStart><SelEnd>636</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\core_cmFunc.h</Filename><XPos>0</XPos><YPos>78</YPos><SelStart>2040</SelStart><SelEnd>2040</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\core_cmInstr.h</Filename><XPos>0</XPos><YPos>592</YPos><SelStart>13628</SelStart><SelEnd>13628</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\Source\os_dbg.c</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>7107</SelStart><SelEnd>7107</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\Source\os_sem.c</Filename><XPos>0</XPos><YPos>310</YPos><SelStart>16305</SelStart><SelEnd>16305</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\core_cm3.c</Filename><XPos>0</XPos><YPos>323</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\board\board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>294</SelStart><SelEnd>294</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\modules\font.h</Filename><XPos>0</XPos><YPos>472</YPos><SelStart>8106</SelStart><SelEnd>8106</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\modules\key.h</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>751</SelStart><SelEnd>751</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\Source\ucos_ii.h</Filename><XPos>0</XPos><YPos>570</YPos><SelStart>28682</SelStart><SelEnd>28682</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\Source\os_task.c</Filename><XPos>0</XPos><YPos>890</YPos><SelStart>42403</SelStart><SelEnd>42403</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\CPU\IAR\os_cpu_c.c</Filename><XPos>0</XPos><YPos>144</YPos><SelStart>5879</SelStart><SelEnd>5879</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\modules\adc.h</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>1997</SelStart><SelEnd>1997</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\wc\wc_fm3.h</Filename><XPos>0</XPos><YPos>25</YPos><SelStart>1318</SelStart><SelEnd>1318</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\io\io_fm3.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>571</SelStart><SelEnd>571</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\modules\adc.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>1455</SelStart><SelEnd>1455</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\wd\wd_fm3.c</Filename><XPos>0</XPos><YPos>134</YPos><SelStart>4612</SelStart><SelEnd>4612</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\mft\mft_adcmp_fm3.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>1241</SelStart><SelEnd>1241</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\core_cm3.h</Filename><XPos>0</XPos><YPos>838</YPos><SelStart>56638</SelStart><SelEnd>56638</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\main\mb9bf50x_lib.h</Filename><XPos>0</XPos><YPos>113</YPos><SelStart>2628</SelStart><SelEnd>2628</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\io\io_fm3.c</Filename><XPos>0</XPos><YPos>366</YPos><SelStart>10001</SelStart><SelEnd>10001</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\fm3_common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>846</SelStart><SelEnd>846</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\cstartup_M.s</Filename><XPos>0</XPos><YPos>210</YPos><SelStart>10096</SelStart><SelEnd>10096</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\CPU\IAR\os_cpu_a.asm</Filename><XPos>0</XPos><YPos>82</YPos><SelStart>4205</SelStart><SelEnd>4205</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\main\uart.c</Filename><XPos>0</XPos><YPos>414</YPos><SelStart>12977</SelStart><SelEnd>12977</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\driver\mfs\uart\uart_fm3.c</Filename><XPos>0</XPos><YPos>691</YPos><SelStart>19692</SelStart><SelEnd>19692</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\main\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>4874</SelStart><SelEnd>4874</SelEnd></Tab><ActiveTab>27</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\uCOS_II_V286\Source\os_core.c</Filename><XPos>0</XPos><YPos>1761</YPos><SelStart>74718</SelStart><SelEnd>74718</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\source\modules\key.c</Filename><XPos>0</XPos><YPos>196</YPos><SelStart>4504</SelStart><SelEnd>4504</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04f80308><key>iaridepm.enu1</key></Toolbar-04f80308></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>572</Bottom><Right>395</Right><x>-2</x><y>-2</y><xscreen>182</xscreen><yscreen>98</yscreen><sizeHorzCX>106620</sizeHorzCX><sizeHorzCY>112773</sizeHorzCY><sizeVertCX>232572</sizeVertCX><sizeVertCY>660529</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>252</Bottom><Right>1709</Right><x>-2</x><y>-2</y><xscreen>1711</xscreen><yscreen>254</yscreen><sizeHorzCX>1002343</sizeHorzCX><sizeHorzCY>292290</sizeHorzCY><sizeVertCX>106620</sizeVertCX><sizeVertCY>112773</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

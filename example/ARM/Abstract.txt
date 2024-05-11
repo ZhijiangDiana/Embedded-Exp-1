@@ -1,0 +1,25 @@
+The Blinky project is a simple demo program for the Fujitsu 'MB9BF506' 
+microcontroller using Keil 'MCB9BF500' Evaluation Board, compliant 
+to Cortex Microcontroller Software Interface Standard (CMSIS v1.30).
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL  =   4 MHz
+   - PLL0  =  80 MHz
+   - CCLK  =  80 MHz
+
+ - SysTick Timer is used in interrupt mode
+ - 8 LEDs blink with speed depending on potentiometer position
+ - AD conversion is done in interrupt mode
+ - AD settings: 10 bit resolution
+ - AD value is output onto ITM debug port #0  
+
+
+
+The Blinky program is available in different targets:
+
+  MB9BF50x RAM:    runs from Internal RAM located on chip
+                   (used for target debugging)
+
+  MB9BF50x Flash:  runs from Internal Flash located on chip
+                   (used for production or target debugging)

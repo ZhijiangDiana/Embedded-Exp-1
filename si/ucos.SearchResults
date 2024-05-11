@@ -1,0 +1,28 @@
+---- HCLK Matches (27 in 1 files) ----
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> Default: HCLK = Master Clock
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> HCLK Max = 80MHz
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <0=> HCLK = Master Clock
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <1=> HCLK = Master Clock / 2
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <2=> HCLK = Master Clock / 3
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <3=> HCLK = Master Clock / 4
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <4=> HCLK = Master Clock / 6
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <5=> HCLK = Master Clock / 8
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <6=> HCLK = Master Clock / 16
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> Default: PCLK0 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <0=> PCLK0 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <1=> PCLK0 = HCLK / 2
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <2=> PCLK0 = HCLK / 4
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <3=> PCLK0 = HCLK / 8
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> Default: PCLK1 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <0=> PCLK1 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <1=> PCLK1 = HCLK / 2
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <2=> PCLK1 = HCLK / 4
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <3=> PCLK1 = HCLK / 8
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> Default: PCLK2 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <0=> PCLK2 = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <1=> PCLK2 = HCLK / 2
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <2=> PCLK2 = HCLK / 4
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <3=> PCLK2 = HCLK / 8
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://           <i> Default: TPIUCLK = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <0=> TPIUCLK = HCLK
+System_mb9bf50x.c (e:\fm3_ucos_demo_1v1\common)://                     <1=> TPIUCLK = HCLK / 2

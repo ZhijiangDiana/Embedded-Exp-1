@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\flash\startup_mb9bf50x.o"
+".\flash\serial.o"
+".\flash\retarget.o"
+".\flash\main.o"
+".\flash\system_mb9bf50x.o"
+".\flash\os_tmr.o"
+".\flash\os_core.o"
+".\flash\os_dbg.o"
+".\flash\os_flag.o"
+".\flash\os_mbox.o"
+".\flash\os_mem.o"
+".\flash\os_mutex.o"
+".\flash\os_q.o"
+".\flash\os_sem.o"
+".\flash\os_task.o"
+".\flash\os_time.o"
+".\flash\os_cpu_c.o"
+".\flash\os_cpu_a.o"
+".\flash\lcd.o"
+".\flash\adc.o"
+".\flash\key.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf
