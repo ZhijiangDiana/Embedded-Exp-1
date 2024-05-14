@@ -228,8 +228,9 @@ void Keyboard_Key04(void)
 	key_flag = 1;
 	if (page_id!=2)	page_id++;
 	FlagCounter = 0;
-    OSTaskDel(28);
-    OSTaskCreate(LedTask, NULL, Task_LED_STK, 28);
+
+    status = 0;
+    delayed_100_ms_cnt = 0;
 }
 
 // key_5 放键事件处理

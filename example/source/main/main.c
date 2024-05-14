@@ -82,6 +82,9 @@ unsigned short FlagCounter,VaulePwm;
 
 extern unsigned char Count;
 
+uint8_t status = 0;
+uint32_t delayed_100_ms_cnt = 0;
+
 char *lcd_dsp_buf[3][8] =
 {
     {
@@ -403,20 +406,38 @@ INT8U i=0;
 
 void LedTask(void *pdata) {
     while (TRUE) {
-        USER_LED_PDOR |= USER_LED_MASK;
-        USER_LED_PDOR &= ~USER_LED1;
-        OSTimeDlyHMSM(0, 0, 20,0);
-        USER_LED_PDOR |= USER_LED_MASK;
-        USER_LED_PDOR &= ~USER_LED2;
-        OSTimeDlyHMSM(0, 0, 0,500);
-        USER_LED_PDOR |= USER_LED_MASK;
-        USER_LED_PDOR &= ~USER_LED3;
-        OSTimeDlyHMSM(0, 0, 10,0);
-        USER_LED_PDOR |= USER_LED_MASK;
-
-//        USER_LED_PDOR |= USER_LED_MASK;
-//        OSTimeDly(10000);
-//        USER_LED_PDOR ^= USER_LED1;
+        switch (status) {
+            case 0:
+                if (delayed_100_ms_cnt == 20 * 10) {
+                    delayed_100_ms_cnt = 0;
+                    status++;
+                }
+                USER_LED_PDOR |= USER_LED_MASK;
+                USER_LED_PDOR &= ~USER_LED1;
+                OSTimeDlyHMSM(0, 0, 0,100);
+                break;
+            case 1:
+                if (delayed_100_ms_cnt == 5) {
+                    delayed_100_ms_cnt = 0;
+                    status++;
+                }
+                USER_LED_PDOR |= USER_LED_MASK;
+                USER_LED_PDOR &= ~USER_LED2;
+                OSTimeDlyHMSM(0, 0, 0,100);
+                break;
+            case 2:
+                if (delayed_100_ms_cnt == 10 * 10) {
+                    delayed_100_ms_cnt = 0;
+                    status = 0;
+                }
+                USER_LED_PDOR |= USER_LED_MASK;
+                USER_LED_PDOR &= ~USER_LED3;
+                OSTimeDlyHMSM(0, 0, 0,100);
+                break;
+            default:
+                status = 0;
+        }
+        delayed_100_ms_cnt++;
     }
 }
 

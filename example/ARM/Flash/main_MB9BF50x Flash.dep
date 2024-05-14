@@ -17,7 +17,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5E53505A)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
-F (..\source\main\main.c)(0x663EEBE2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\uCOS_II_V286\Source -I ..\..\uCOS_II_V286\CPU\ARM -I ..\source\modules -I ..\source\board -I ..\source\picture -I ..\..\common -I ..\source\main-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Fujitsu\MB9BF50x-D__UVISION_VERSION="530" -DKSK_MB9BF506-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+F (..\source\main\main.c)(0x66434728)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\uCOS_II_V286\Source -I ..\..\uCOS_II_V286\CPU\ARM -I ..\source\modules -I ..\source\board -I ..\source\picture -I ..\..\common -I ..\source\main-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Fujitsu\MB9BF50x-D__UVISION_VERSION="530" -DKSK_MB9BF506-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
@@ -29,7 +29,7 @@ I (..\..\common\core_cmInstr.h)(0x50A0C47C)
 I (..\..\common\core_cmFunc.h)(0x50A0C47C)
 I (..\..\common\system_mb9bf50x.h)(0x4D3F6C58)
 I (..\source\modules\lcd.h)(0x4DB1449C)
-I (..\source\modules\key.h)(0x663EEBA8)
+I (..\source\modules\key.h)(0x664347B8)
 I (..\..\uCOS_II_V286\CPU\ARM\os_cpu.h)(0x483F2548)
 I (..\source\modules\adc.h)(0x50A1A3D0)
 I (..\..\uCOS_II_V286\Source\ucos_ii.h)(0x4AC1CB2A)
@@ -131,8 +131,8 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
 I (..\..\common\core_cmInstr.h)(0x50A0C47C)
 I (..\..\common\core_cmFunc.h)(0x50A0C47C)
 I (..\..\common\system_mb9bf50x.h)(0x4D3F6C58)
-F (..\source\modules\key.c)(0x663EEBA8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\uCOS_II_V286\Source -I ..\..\uCOS_II_V286\CPU\ARM -I ..\source\modules -I ..\source\board -I ..\source\picture -I ..\..\common -I ..\source\main-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Fujitsu\MB9BF50x-D__UVISION_VERSION="530" -DKSK_MB9BF506-o .\flash\key.o --omf_browse .\flash\key.crf --depend .\flash\key.d)
-I (..\source\modules\key.h)(0x663EEBA8)
+F (..\source\modules\key.c)(0x664347B8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\uCOS_II_V286\Source -I ..\..\uCOS_II_V286\CPU\ARM -I ..\source\modules -I ..\source\board -I ..\source\picture -I ..\..\common -I ..\source\main-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Fujitsu\MB9BF50x-D__UVISION_VERSION="530" -DKSK_MB9BF506-o .\flash\key.o --omf_browse .\flash\key.crf --depend .\flash\key.d)
+I (..\source\modules\key.h)(0x664347B8)
 I (..\source\board\board.h)(0x4DB6694E)
 I (..\..\common\mb9bf506r.h)(0x4D3CDC72)
 I (..\..\common\core_cm3.h)(0x4B7A1A5C)

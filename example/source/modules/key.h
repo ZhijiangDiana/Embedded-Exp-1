@@ -29,8 +29,9 @@ extern unsigned char key_flag;
 extern unsigned char LcdFlag;
 extern unsigned short FlagCounter;
 extern unsigned char page_id,ad_update_flag, cpu_usage, cpu_usage_flag;
-extern OS_STK Task_LED_STK[128];
-extern void LedTask(void *pdata);
+
+extern uint8_t status;
+extern uint32_t delayed_100_ms_cnt;
 
 /* Exported constants --------------------------------------------------------*/
 /* Exported macro ------------------------------------------------------------*/
